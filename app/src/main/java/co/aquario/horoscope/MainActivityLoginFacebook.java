@@ -136,7 +136,7 @@ public class MainActivityLoginFacebook extends AppCompatActivity {
                     showProfileLoggedOut();
                 } else {
                     // User clicked to log in.
-                    ParseLoginBuilder loginBuilder = new ParseLoginBuilder(MainActivityLoginFacebook.this).setParseLoginEnabled(false).setFacebookLoginPermissions(Arrays.asList("public_profile", "user_friends", "user_birthday")).setTwitterLoginEnabled(false);
+                    ParseLoginBuilder loginBuilder = new ParseLoginBuilder(MainActivityLoginFacebook.this).setParseLoginEnabled(false).setFacebookLoginPermissions(Arrays.asList("public_profile", "user_friends")).setTwitterLoginEnabled(false);
                     startActivityForResult(loginBuilder.build(), LOGIN_REQUEST);
                 }
                 if (overrideAnimation != null) {
