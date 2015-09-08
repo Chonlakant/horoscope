@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">socialkit:unsplash</string>
+    <string name="app_name">เป็นไรมาล่ะ</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
@@ -16,4 +16,530 @@
 
 
     <string name="txt_yo_yo">Yo Yo</string>
+
+    <string name="parse_app_id">sawbvcVxXPx4f6WFew9GLECNjBllw5QdlRpyBY3M</string>
+    <string name="parse_client_key">AwLWpH3Dckw8KXsiRMkiS56WzdUEAODxgOecEwk3</string>
+    <string name="facebook_app_id">1466320060320782</string>
+
+    <string name="profile_logo_content_description">Logo</string>
+    <string name="profile_title_logged_in">Your are logged in as</string>
+    <string name="profile_logout_button_label">Log out</string>
+    <string name="profile_title_logged_out">You must be logged in to view your profile</string>
+    <string name="profile_login_button_label">Log in</string>
+    <string name="title_activity_activity_date">ActivityDate</string>
+
+
+
+    <!--มังกร-->
+    <string name="capricorn_n">9</string>
+    <string name="capricorn_var">Capricorn</string>
+    <string name="capricorn_title_en">Capricorn</string>
+    <string name="capricorn_title">ราศีมังกร</string>
+    <string name="capricorn_date">(22 ธ.ค. - 19 ม.ค.)</string>
+    <string name="capricorn_character_title">ลักษณะนิสัยของคนราศีมังกร</string>
+    <string name="capricorn_main">หนุ่มสาวชาวราศีมังกรโดยธรรมชาติแล้วเป็นคนที่ชอบตัั้งเป้าหมายให้กับตัวเองเสมอ เป็นคนแข็งแกร่งมีความพร้อมทั้งทางร่างกายและจิตใจที่จะเผชิญหน้ากับปัญหาต่างๆ สถานการณ์ที่ยากลำบากทุกประเภท เพื่อแลกกับสิ่งที่คุณต้องการ ทำให้คุณสามารถประสบความสำเร็จในชีวิตหลายๆเรื่องตามที่คุณตั้งใจไว้ได้อย่างง่ายดาย ดังที่กล่าวไปแล้วว่าคุณมังกรเป็นคนที่ตั้งเป้าหมายให้ตัวเองเสมอ และมักจะตั้งเป้าหมายให้สูงยิ่งๆขึ้นไปอีกตลอดเวลา สิ่งที่คุณต้องการคือคู่มือ หลักการหลักเกณฑ์ ข้อบังคับในเรื่องต่างๆ แล้วคุณจะนำความรู้ทั้งหมดที่คุณได้ฟังหรือได้อ่าน ที่คุณเรียนรู้มาทั้งหมด ไปปรับใช้บนเส้นทางเดินของตัวคุณเอง และมันจะเป็นเส้นทางที่สามารถนำคุณไปสู่เส้นชัย แต่คุณมังกรก็ต้องเรียนรู้ด้วยว่าผลลัพธ์ที่รออยู่ที่ปลายทางนั้นไม่สามารถพิสูจน์ให้คุณเข้าถึงความหมายของชีวิตได้ ทว่าเป็นระหว่างทางเดินนั่นต่างหากเล่าที่จะสามารถบอกคุณค่าของชีวิตให้แก่คุณได้ ชาวมังกรมีเป้าหมายชีวิตที่ชัดเจนอยู่แล้ว
+และแน่นอนว่าคุณก็สามารถไปถึงเป้าหมายของคุณได้อย่างสบายๆ  สิ่งสำคัญที่คุณควรระลึกถึงเสมอ คือคุณค่าระหว่างทางที่คุณกำลังไปสู่จุดหมายนี่ล่ะ เพราะบางทีคุณอาจจะมองข้ามมันไป ต้องระวังคนรอบข้างและ คนใกล้ชิดที่อาจจะรู้สึกน้อยใจคุณได้
+</string>
+
+    <string name="capricorn_compat_title">เข้ากันได้ดีกับราศี</string>
+    <string-array name="capricorn_compat_array">
+        <item>5,virgo,ราศีกันย,Virgo</item>
+        <item>1,taurus,ราศีพฤษภ,Taurus</item>
+    </string-array>
+
+    <string name="capricorn_good_title">ข้อดี</string>
+
+    <string-array name="capricorn_good_main_array">
+        <item>มีความรับผิดชอบสูง</item>
+        <item>บริหารจัดการเก่ง</item>
+        <item>มีวินัย</item>
+        <item>ควบคุมอารมณ์ได้ดี</item>
+    </string-array>
+
+
+    <string name="capricorn_bad_title">ข้อเสีย</string>
+
+    <string-array name="capricorn_bad_main_array">
+        <item>มองโลกในแง่ร้าย</item>
+        <item>รู้ดีไปทุกเรื่อง</item>
+        <item>เจ้าคิดเจ้าแค้น</item>
+    </string-array>
+
+    <string name="capricorn_thai">คนดังในประเทศไทยที่เกิดราศีมังกร</string>
+    <string-array name="capricorn_thai_celeb_array">
+        <item>ปีเตอร์ คอร์ปไดเรนดอล</item>
+        <item>ใหม่ เจริญปุระ</item>
+        <item>ก้อย รัชวิน</item>
+        <item>ฟลุ๊ก เกริกพล</item>
+    </string-array>
+
+    <string name="capricorn_wold">คนดังระดับโลกของราศีมังกร</string>
+    <string-array name="capricorn_world_celeb_array">
+        <item>ซาย (PSY)</item>
+        <item>โดฟ คาเมรอน</item>
+        <item>เบ็ตตี้ ไวท์</item>
+        <item>เอลวิส เพรสลีย</item>
+    </string-array>
+
+    <!--ราศีกุมภ์-->
+    <string name="aquarius_n">10</string>
+    <string name="aquarius_var">Aquarius</string>
+    <string name="aquarius_title_en">Aquarius</string>
+    <string name="aquarius_title">ราศีกุมภ์</string>
+    <string name="aquarius_date">(20 ม.ค. - 18 ก.พ.)</string>
+    <string name="aquarius_character_title">ลักษณะนิสัยของคนราศีกุมภ์</string>
+    <string name="aquarius_main">ชาวราศีกุมภ์เกิดมาเพื่อแสวงหาโลกในอุดมคติที่คุณพึงพอใจ  คุณจะไม่ไปทะเลาะหรือโต้เถียง
+กับคนที่เค้ามีความคิดเห็นขัดแย้งกับทัศนคติของคุณให้เสียเวลาหรอก ชาวกุมภ์มีทฤษฎีเป็นของตัวเองและก็เชื่อมั่นในทฤษฎีนั้นอย่างสุดหัวใจ ยกตัวอย่างถึงทฤษฎีของชาวราศีกุมภ์คนดังอย่างอับราฮัม ลินคอล์น ที่เชื่อมั่นในความเท่าเทียมของมนุษย์ อันเป็นจุดเริ่มต้นของการเลิกทาสในสหรัฐอเมริกาและขยายเป็นวงกว้างไปสู่สังคมโลกเกิดประโยชน์มหาศาลต่อมหาชน เพราะเขาเชื่อมั่นในความคิดของตนเองมาก และเขาก็ลงมือทำมันจนสำเร็จขึ้นมาได้ เช่นเดียวกับชาวราศีกุมภ์ท่านอื่นๆ ผู้มีคุณสมบัติมองการณ์ไกล มีวิสัยทัศน์ มีความปรารถนาดีกับโลกที่คุณอยู่ มุ่งมั่นและตั้งใจที่จะทำให้อุดมคติที่คนเองใฝ่ฝันเป็นจริงขึ้นมาได้
+</string>
+    <string name="aquarius_compat_title">เข้ากันได้ดีกับราศี</string>
+    <string-array name="aquarius_compat_array">
+        <item>2,gemini,ราศีเมถุน,Gemini</item>
+        <item>6,libra,ราศีตุลย์,Libra</item>
+
+    </string-array>
+    <string name="aquarius_good_title">ข้อดี</string>
+    <string-array name="aquarius_good_main_array">
+        <item>เป็นตัวของตัวเอง</item>
+        <item>ใจดี</item>
+        <item>ชอบช่วยเหลือผู้อื่น</item>
+        <item>หัวก้าวหน้า</item>
+    </string-array>
+    <string name="aquarius_bad_title">ข้อเสีย</string>
+    <string-array name="aquarius_bad_main_array">
+        <item>ไม่แสดงออกทางอารมณ์ ดูเย็นชา</item>
+        <item>ดื้อเงียบ</item>
+        <item>เข้าถึงตัวตนที่แท้จริงได้ยาก</item>
+    </string-array>
+    <string name="aquarius_thai">คนดังในประเทศไทยที่เกิดราศีกุมภ์</string>
+    <string-array name="aquarius_thai_celeb_array">
+        <item>คิมเบอร์ลี (แอน) เทียมสิริ</item>
+        <item>แต้ว ณฐพร เตมีรักษ์</item>
+        <item>เต้ย จรินทร์พร จุนเกียรติ</item>
+        <item>นาวินต้าร์ เยาวพลกุล</item>
+    </string-array>
+    <string name="aquarius_wold">คนดังระดับโลกของราศีกุมภ์</string>
+    <string-array name="aquarius_world_celeb_array">
+        <item>จัสติน ทิมเบอร์เลค</item>
+        <item>เทย์เล่อร์ เลาท์เนอร์</item>
+        <item>ชากีร่า</item>
+        <item>เจนนิเฟอร์ อนิสตัน</item>
+        <item>บ๊อบ มาร์เลย์</item>
+    </string-array>
+
+    <!--//ราศีมีน-->
+    <string name="pisces_n">11</string>
+    <string name="pisces_var">Pisces</string>
+    <string name="pisces_title_en">Pisces</string>
+    <string name="pisces_title">ราศีมีน</string>
+    <string name="pisces_character_title">ลักษณะนิสัยของคนราศีมีน</string>
+    <string name="pisces_date">(19 ก.พ. - 20 มี.ค.)</string>
+    <string name="pisces_main">ชาวราศีมีนเป็นคนปรับตัวเก่ง คนราศีนี้บางทีก็ดูเหมือนจะเป็นคนขี้อาย เนื่องจากว่าคุณมักชอบปิดบังตัวตนที่แท้จริงเอาไว้ ไม่ค่อยแสดงตัวตนที่แท้จริงออกมา และแสดงออกเป็นพฤติกรรมที่ไม่ใช่พฤติกรรมที่แท้ของคุณเอง คุณเป็นคนรักสันโดษ บางครั้งคุณก็ชอบปลีกตัวออกจากคนในกระแสหลักไปสร้างโลกส่วนตัวของคุณเอง การที่คุณชอบอยู่คนเดียวในบางครั้งก็อาจจะเป็นปัญหาสำหรับคนรอบข้างที่ไม่เข้าใจคุณ พวกเขาอาจจะไม่ยอมรับในตัวคุณ โดยที่พวกเขาไม่รู้เลยว่าคุณได้ปิดบังพรสวรรค์ที่คุณมีอยู่ในตัวของคุณ ภายใต้ตัวตนที่คุณได้แสดงออกมานั้นอาจจะดูธรรมดาๆ แต่แท้ที่จริงแล้วคุณเป็นคนมีความสามารถรอบด้าน คุณมีลางสังหรณ์แม่นยำ มีความคิดสร้างสรรค์ มีความเป็นศิลปิน
+นอกจากนี้คุณยังเป็นคนอ่อนโยนต่อคนรอบข้าง แต่ในขณะเดียวกันอารมณ์และความรู้สึกของคุณก็อ่อนไหว สามารถถูกกระทบกระเทือนเอาได้ง่ายๆอีกด้วย</string>
+    <string name="pisces_compat_title">ราศีที่เข้ากันได้ดี</string>
+    <string-array name="pisces_compat_array">
+        <item>3,cancer,ราศีกรกฎ,Cancer</item>
+        <item>7,scorpio,ราศีพิจิก,Scorpio</item>
+
+    </string-array>
+    <string name="pisces_good_title">ข้อดี</string>
+    <string-array name="pisces_good_main_array">
+        <item>ลางสังหรณ์แม่นยำดี</item>
+        <item>อ่อนโยน</item>
+        <item>ฉลาด</item>
+        <item>มีความเป็นศิลปิน</item>
+    </string-array>
+    <string name="pisces_bad_title">ข้อเสีย</string>
+    <string-array name="pisces_bad_main_array">
+        <item>หวาดกลัว</item>
+        <item>ไว้ใจคนง่าย</item>
+        <item>หลบหนีความจริง</item>
+    </string-array>
+    <string name="pisces_thai">คนดังในประเทศไทยของราศีมีน</string>
+    <string-array name="pisces_thai_celeb_array">
+        <item>อั้ม อธิชาติ ชุมนานนท์</item>
+        <item>โบวี่ อัฐมา ชีวนิชพันธ์์</item>
+        <item>หลุยส์ สก๊อต</item>
+        <item>ขวัญ อุษามณี</item>
+    </string-array>
+    <string name="pisces_wold">คนดังระดับโลกของราศีมีน</string>
+    <string-array name="pisces_world_celeb_array">
+        <item>อดัม เลอวีน (มารูน 5)</item>
+        <item>จัสติน บีเบอร์</item>
+        <item>ริฮานน่า</item>
+        <item>อัลเบิร์ต ไอน์สไตน์</item>
+    </string-array>
+
+
+    <!--//ราศีเมษ-->
+    <string name="aries_n">0</string>
+    <string name="aries_var">Aries</string>
+    <string name="aries_title_en">Aries</string>
+    <string name="aries_title">ราศีเมษ</string>
+    <string name="aries_character_title">ลักษณะของคนราศีเมษ</string>
+    <string name="aries_date">(21 มี.ค. - 19 เม.ย.)</string>
+    <string name="aries_main">ชาวราศีเมษมักจะทำให้ตัวเองยุ่งอยู่ตลอดเวลาเพราะคุณสามารถทำอะไรให้สำเร็จได้อย่างง่ายดาย
+ด้วยพลังงานทางด้านร่างกายและพลังงานทางด้านจิตใจที่มีมากเหลือเฟือ คุณไม่ชอบอยู่นิ่งๆเฉยๆ
+คุณทำนู่น นี่ นั่น ตลอดเวลาราวกับว่าพลังงานของคุณนั้นไม่มีวันหมด ดังนั้นแล้วคุณควรจะต้องเรียนรู้
+ที่จะใช้พลังงานที่มีอยู่มากของคุณให้เป็นไปในทางที่สร้างสรรค์ นำไปทำอะไรให้เกิดประโยชน์ต่อตนเองและคนรอบข้างจะดีมาก โดยทั่วไปแล้วชาวราศีเมษ มีความเป็นเจ้าคนนายคน มักจะเป็นผู้ว่าจ้างหรือเป็นผู้สั่งการให้ใครทำอะไรมากกว่าที่จะลงมือทำด้วยตนเอง บางครั้งคุณสั่งการโดยเอาตัวเองเป็นบรรทัดฐาน ซึ่งในความคิดของผู้อื่นเห็นว่าการที่จะทำงานให้รวดเร็วให้เหมือนกับที่ชาวเมษทำนั้นมันช่างยากเย็นเสียเหลือเกิน นอกจากทำสิ่งต่างๆได้ไวเหมือนลิงแล้ว ชาวเมษยังเป็นคนมีสเน่ห์ดึงดูดใจผู้อื่นทั้งจากรูปลักษณ์ภายนอกรวมไปถึงจิตวิญญาณที่อยู่ข้างใน เรียกได้ว่าเป็นคนราศีเมษสเน่ห์แรง ผู้ใดที่เป็นคู่ครองของชาวราศีนี้อาจจะต้องปวดหัวเพราะความฮอตของชาวเมษได้</string>
+
+
+    <string name="aries_compat_title">ราศีที่เข้ากันได้ดี</string>
+    <string-array name="aries_compat_array">
+        <item>9,sagittarius,ราศีธน,Sagittarius</item>
+        <item>4,leo,ราศีสิงห์,Leo</item>
+
+    </string-array>
+
+    <string name="aries_good_title">ข้อดี</string>
+    <string-array name="aries_good_main_array">
+        <item>มีความมั่นใจ</item>
+        <item>กระตือรือร้น</item>
+        <item>ใจกล้าบ้าบิ่น</item>
+    </string-array>
+
+    <string name="aries_bad_title">ข้อเสีย</string>
+    <string-array name="aries_bad_main_array">
+        <item>ไม่อดทน</item>
+        <item>เถียงแบบไม่มีเหตุผล</item>
+        <item>ปล่อยให้ความกลัวจำกัดตัวเลือกในชีวิต</item>
+    </string-array>
+
+
+    <string name="aries_thai">คนดังในประเทศไทยของราศีเมษ</string>
+    <string-array name="aries_thai_celeb_array">
+        <item>ปู ไปรยา สวนดอกไม้์</item>
+        <item>ปัญญา นิรันดร์กุล</item>
+        <item>วุ้นเส้น วิริฒิภา</item>
+    </string-array>
+    <string name="aries_wold">คนดังระดับโลกของราศีเมษ</string>
+    <string-array name="aries_world_celeb_array">
+        <item>มาราย แครี่</item>
+        <item>เลดี้กาก้า</item>
+        <item>เอมม่า วัตสัน</item>
+        <item>คริสเท่น สจ๊วร์ท</item>
+    </string-array>
+
+
+    <!--//ราศีพฤษภ-->
+    <string name="taurus_n">1</string>
+    <string name="taurus_var">Taurus</string>
+    <string name="taurus_title">ราศีพฤษภ</string>
+    <string name="taurus_title_en">Taurus</string>
+    <string name="taurus_character_title">ลักษณะของคนราศีพฤษภ</string>
+    <string name="taurus_date">(20 เม.ย. - 20 พ.ค.)</string>
+    <string name="taurus_main">ชาวราศีพฤษภเป็นพวกอนุรักษ์นิยม มักจะยึดติดอยู่กับความคิดเดิมๆและนิสัยเก่าๆของตัวเอง เคร่งครัดในระเบียบแบบแผนและประเพณี อันเป็นลักษณะที่อาจจะทำให้คุณเสียเปรียบผู้อื่นได้ เพราะคุณมักจะมองไม่เห็นเลยว่าความคิดใหม่ๆ สถานการณ์ใหม่ๆ หรือความโลกภิวัฒน์นั้นมีประโยชน์ในทางปฎิบัติ สร้างประสบการณ์ให้คุณได้มากเพียงใด คุณจึงจำเป็นอย่างยิ่งที่จะต้องเข้าใจว่า ในขณะที่ความดื้อดึงความมั่นคง และความกัดไม่ปล่อยของคุณนั้นนำไปสู่ความสำเร็จในเรื่องของการเรียนและหน้าที่การงาน
+แต่สำหรับความรักความสัมพันธ์แล้ว ความอดทนและความยืดหยุ่น จะเป็นสิ่งที่สามารถรักษาความรักความสัมพันธ์ของคุณเอาไว้ได้ดีที่สุด</string>
+    <string name="taurus_compat_title">ราศีที่เข้ากันได้ดี</string>
+    <string-array name="taurus_compat_array">
+        <item>5,virgo,ราศีกันย์,Virgo</item>
+        <item>9,capricorn,ราศีมังกร,capricorn</item>
+    </string-array>
+    <string name="taurus_good_title">ข้อดี</string>
+    <string-array name="taurus_good_main_array">
+        <item>เป็นนักปฎิบัติ</item>
+        <item>พึ่งพาได้</item>
+        <item>อดทน</item>
+    </string-array>
+
+    <string name="taurus_bad_title">ข้อเสีย</string>
+    <string-array name="taurus_bad_main_array">
+        <item>เคร่งเกินไป</item>
+        <item>ไม่ประณีประนอม</item>
+        <item>ชอบเป็นเจ้าของ</item>
+    </string-array>
+    <string name="taurus_thai">คนดังในประเทศไทยของราศีพฤษภ</string>
+    <string-array name="taurus_thai_celeb_array">
+        <item>โฬม ภัชฎะ นามปาน</item>
+        <item>ก้อง สหรัถ</item>
+        <item>ใหม่ ดาวิกา</item>
+    </string-array>
+    <string name="taurus_wold">คนดังระดับโลกของราศีพฤษภ</string>
+    <string-array name="taurus_world_celeb_array">
+        <item>ควีน อลิซาเบ็ธ</item>
+        <item>โรเบิร์ต แพทธิซั่น</item>
+        <item>อเดล</item>
+        <item>คริส บราวน์</item>
+    </string-array>
+
+    <!--//ราศีเมถุน-->
+    <string name="gemini_n">2</string>
+    <string name="gemini_var">Gemini</string>
+    <string name="gemini_title_en">Gemini</string>
+    <string name="gemini_title">ราศีเมถุน</string>
+    <string name="gemini_character_title">ลักษณะของคนราศีเมถุน</string>
+    <string name="gemini_date">(21 พ.ค. - 20 มิ.ย.)</string>
+    <string name="gemini_main">ชาวราศีเมถุนมีทักษะด้านการติดต่อสื่อสารที่เป็นเลิศ คุณสามารถปรับตัวให้เข้ากับสถานการณ์ที่คุณต้องเผชิญได้เป็นอย่างดี อย่างไรก็ตาม คุณต้องเรียนรู้ที่จะพูดจาสื่อสารอย่างตรงไปตรงมา มากกว่าที่จะพูดเอาใจใครเพราะคุณฉลาดและรู้ว่าใครอยากได้ยินอะไร ชาวเมถุนมีวาจาหลักแหลมและมีทักษะที่โดดเด่นมากในการเล่าเรื่องจริงได้อย่างน่าเร้าใจ เทคนิคของคุณคือการเปิดบางส่วนและปิดบางส่วนนั่นเอง
+เป็นการเหลือพื้นที่ไว้ให้ผู้รับสารได้เกิดอารมณ์ความรู้สึกและจินตนาการต่อเอง หากคุณอยากอยู่ใกล้ๆกับคนที่มีชีวิตชีวาไม่น่าเบื่อล่ะก็ ให้คบกับชาวราศีนี้เอาไว้ได้เลย ชีวิตคุณจะไม่น่าเบื่ออย่างแน่นอน</string>
+    <string name="gemini_compat_title">ราศีที่เข้ากันได้ดี</string>
+    <string-array name="gemini_compat_array">
+        <item>19,aquarius,ราศีกุมภ์,Aquarius</item>
+        <item>6,libra,ราศีตุลย์,Libra</item>
+    </string-array>
+    <string name="gemini_good_title">ข้อดี</string>
+    <string-array name="gemini_good_main_array">
+        <item>มีสเน่ห์</item>
+        <item>กระหายความรู้</item>
+        <item>ใจดี</item>
+    </string-array>
+    <string name="gemini_bad_title">ข้อเสีย</string>
+    <string-array name="gemini_bad_main_array">
+        <item>สมาธิสั้น</item>
+        <item>โลเล</item>
+        <item>ทำอะไรหลายอย่างในเวลาเดียวกัน</item>
+    </string-array>
+    <string name="gemini_thai">คนดังในประเทศไทยของราศีเมถุน</string>
+    <string-array name="gemini_thai_celeb_array">
+        <item>อนันดา เอเวอริ่งแฮม</item>
+        <item>ตุ๊กกี้ สุดารัตน์</item>
+        <item>ปันปัน สุทัตตา อุดมศิลป์</item>
+    </string-array>
+    <string name="gemini_wold">คนดังระดับโลกของราศีเมถุน</string>
+    <string-array name="gemini_world_celeb_array">
+        <item>จอห์นนี่ เดพ</item>
+        <item>มาริลีน มอนโร</item>
+        <item>แอนเจลิน่า โจลี่</item>
+    </string-array>
+
+
+    <!--//ราศีกรกฎ-->
+    <string name="cancer_n">3</string>
+    <string name="cancer_var">Cancer</string>
+    <string name="cancer_title">ราศีกรกฎ</string>
+    <string name="cancer_title_en">Cancer</string>
+    <string name="cancer_character_title">ลักษณะของคนราศีกรกฎ</string>
+    <string name="cancer_date">(21 มิ.ย. - 22 ก.ค.)</string>
+    <string name="cancer_main">ชาวราศีนี้มักจะทำอะไรตามอารมณ์ งานจะเสร็จหรือไม่เสร็จ จะดีหรือไม่ดี ก็ขึ้นอยู่กับอารมณ์ของตัวเองเป็นหลัก เรียกได้ว่าอารมณ์ศิลปินค่อนข้างสูง พฤติกรรมที่เกิดขึ้นโดยมากก็มาจากอารมณ์ความรู้สึกทั้งสิ้น ไม่ได้มาจากการคิดแบบมีเหตุผล เวลาชาวราศีกรกฎทำงานก็จะทำอย่างบ้าคลั่ง ทำแบบต่อเนื่อง ยาวนาน เป็นการสนองความต้องการของตนเองในรูปแบบหนึ่ง ชาวราศีนี้ยังรู้วิธีการทำให้ผู้อื่นเกิดความรู้สึกอยากทำงานให้สำเร็จอีกด้วย โดยใช้วิธีการปฎิบัติต่อผู้อื่นเสมือนเป็นสมาชิกคนหนึ่งในครอบครัว จึงยกให้ชาวราศีกรกฎว่าเป็นผู้มีศักยภาพที่ยอดเยี่ยมในการกระตุ้นผู้อื่น โน้มน้าวผู้อื่นให้ทำงานได้อย่างเต็มประสิทธิภาพ ในขณะเดียวกันชาวราศีนี้ก็ต้องเรียนรู้ที่จะควบคุมอารมณ์ของตนเองให้สมดุล เพราะเวลาคุณมีความทุกข์คุณจมอยู่กับความทุกข์นั้นจนน่าเป็นห่วง และเวลาคุณมีความสุขคุณก็สุขมากกว่าคนอื่นเป็นสองสามเท่า </string>
+    <string name="cancer_compat_title">ราศีที่เข้ากันได้ดี</string>
+    <string-array name="cancer_compat_array">
+        <item>3,scorpio,ราศีพิจิก,Scorpio</item>
+        <item>11,pisces,ราศีมีน,Pisces</item>
+    </string-array>
+    <string name="cancer_good_title">ข้อดี</string>
+    <string-array name="cancer_good_main_array">
+        <item>ยืนหยัด</item>
+        <item>ขี้สงสาร</item>
+        <item>จิตใจดีแต่ก็สามารถโหดเหี้ยมได้เพื่อปกป้องคนคุณรัก</item>
+    </string-array>
+    <string name="cancer_bad_title">ข้อเสีย</string>
+    <string-array name="cancer_bad_main_array">
+        <item>หวาดระแวง</item>
+        <item>ขี้กลัว</item>
+        <item>รู้สึกไม่ปลอดภัย</item>
+        <item>ยึดติดอยู่กับอดีต</item>
+        <item>อารมณ์ขึ้นๆลงๆ</item>
+    </string-array>
+    <string name="cancer_thai">คนดังในประเทศไทยของราศีกรกฎ</string>
+    <string-array name="cancer_thai_celeb_array">
+        <item>กบ สุวนันท์ คงยิ่ง</item>
+        <item>ดีเจนุ้ย ธนวัฒน์</item>
+        <item>มะปราง วิรากานต์ เสณีตันติกุล</item>
+        <item>ตุ้ย ธีรภัทร สัจจกุล</item>
+    </string-array>
+    <string name="cancer_wold">คนดังระดับโลกของราศีกรกฎ</string>
+    <string-array name="cancer_world_celeb_array">
+        <item>เซเลน่า โกเมซ</item>
+        <item>ทอม ครูซ</item>
+        <item>อาริอานน่า กรานเด</item>
+    </string-array>
+
+    <!--//ราศีสิงห์-->
+    <string name="leo_n">4</string>
+    <string name="leo_var">leo</string>
+    <string name="leo_title">ราศีสิงห์</string>
+    <string name="leo_title_en">Leo</string>
+    <string name="leo_character_title">ลักษณะของคนราศีสิงห์</string>
+    <string name="leo_date">(23 ก.ค. - 22 ส.ค.)</string>
+    <string name="leo_main">ชาวราศีสิงห์หัวแข็ง ดื้อรั้น และทะนงตนเป็นที่สุด ชาวราศีนี้ไม่ฟังคำแนะนำของผู้อื่นเพื่อนำมาปรับปรุงเปลี่ยนแปลงตนเองง่ายๆอย่างแน่นอน ด้วยความดื้อดึงของชาวราศีนี้นี่เองทำให้พวกเขาไม่ยอมรับในหลักการเกี่ยวกับการให้หรือการแบ่งปัน ชาวราศีสิงห์จะไม่ให้ในสิ่งที่ผู้อื่นร้องขอ เรียกร้อง หรือต้องการแต่จะให้ในสิ่งที่ตนเองต้องการจะให้โดยไม่สนใจว่าผู้รับต้องการสิ่งนั้นหรือไม่ต้องการ</string>
+    <string name="leo_compat_title">ราศีที่เข้ากันได้ดี</string>
+    <string-array name="leo_compat_array">
+        <item>0,aries,ราศีเมษ,Aries</item>
+        <item>8,sagittarius,ราศีธนู,Sagittarius</item>
+    </string-array>
+    <string name="leo_good_title">ข้อดี</string>
+    <string-array name="leo_good_main_array">
+        <item>อบอุ่น</item>
+        <item>อารมณ์ดี</item>
+        <item>มีความคิดสร้างสรรค์</item>
+    </string-array>
+    <string name="leo_bad_title">ข้อเสีย</string>
+    <string-array name="leo_bad_main_array">
+        <item>ก้าวร้าว</item>
+        <item>เคร่งขรึม</item>
+        <item>เอาตัวเองเป็นจุดศูนย์กลาง</item>
+        <item>ขี้เกียจ</item>
+    </string-array>
+    <string name="leo_thai">คนดังในประเทศไทยของราศีสิงห์</string>
+    <string-array name="leo_thai_celeb_array">
+        <item>ยิปซี คีรติ</item>
+        <item>บอย ปกรณ์</item>
+        <item>ฮิวโก้ จุลจักร จักรพงษ์</item>
+    </string-array>
+    <string name="leo_wold">คนดังระดับโลกของราศีสิงห์</string>
+    <string-array name="leo_world_celeb_array">
+        <item>บารัค โอบาม่า</item>
+        <item>เจนนิเฟอร์ โลเปซ</item>
+        <item>เจนนิเฟอร์ ลอว์เรนซ์</item>
+    </string-array>
+
+
+    <!--ราศีกันย์-->
+    <string name="virgo_n">5</string>
+    <string name="virgo_var">Virgo</string>
+    <string name="virgo_title">ราศีกันย์</string>
+    <string name="virgo_title_en">Virgo</string>
+    <string name="virgo_character_title">ลักษณะของคนราศีกันย์</string>
+    <string name="virgo_date">(23 ส.ค. - 22 ก.ย.)</string>
+    <string name="virgo_main">ชาวราศีกันย์มีความสามารถในการปรับตัวให้เข้ากับคนได้ทุกๆประเภทและสถานการณ์ทุกๆสถานการณ์
+โดยวิธีการที่ชาวราศีกันย์ใช้นั้นคือหาจุดร่วมหรือจุดเชื่อมที่ตนสามารถเข้าไปเป็นส่วนหนึ่งหรือช่วยเหลือผู้อื่นได้ คุณสร้างคุณค่าให้แก่ตัวคุณเองและทำตนให้มีประโยชน์ต่อผู้อื่น ในขณะเดียวกัน คุณก็มักจะสนใจแต่ตัวเอง ชอบพูดเรื่องของตัวเอง ชอบชื่นชมความสามารถของตัวเอง บรรยายถึงคุณงามความดีของตนเอง หรือบางทีคุณก็วิพากษ์วิจารณ์ความผิดของตนเอง ความไม่สมบูรณ์แบบของตนเอง
+ทั้งนี้ก็เพื่อซ่อนความอ่อนแอ คุณจึงเลือกจะพูดด้านไม่ดีของตัวเองแทนที่จะให้ผู้อื่นเป็นฝ่ายพูดนั่นเอง</string>
+    <string name="virgo_compat_title">ราศีที่เข้ากันได้ดี</string>
+    <string-array name="virgo_compat_array">
+        <item>1,taurus,ราศีพฤษภ,Taurus</item>
+        <item>9,capricorn,ราศีมังกร,Capricorn</item>
+    </string-array>
+    <string name="virgo_good_title">ข้อดี</string>
+    <string-array name="virgo_good_main_array">
+        <item>นักปฎิบัติ</item>
+        <item>ซื่อสัตย์</item>
+        <item>ขยัน</item>
+    </string-array>
+    <string name="virgo_bad_title">ข้อเสีย</string>
+    <string-array name="virgo_bad_main_array">
+        <item>ขี้กังวล</item>
+        <item>ขี้อาย</item>
+        <item>คิดมาก</item>
+    </string-array>
+    <string name="virgo_thai">คนดังในประเทศไทยของราศีกันย์</string>
+    <string-array name="virgo_thai_celeb_array">
+        <item>มาช่า วัฒนพานิชิ</item>
+        <item>โตโน่ ภาคิน</item>
+        <item>เจนี่ เทียนโพธิ์สุวรรณ</item>
+    </string-array>
+    <string name="virgo_wold">คนดังระดับโลกของราศีกันย์</string>
+    <string-array name="virgo_world_celeb_array">
+        <item>พิ้งค์, อดัม แซนเลอร์</item>
+        <item>บียอนเซ่</item>
+        <item>ไมเคิล แจ๊คสัน</item>
+    </string-array>
+
+    <!--ราศีตุลย์-->
+    <string name="libra_n">6</string>
+    <string name="libra_var">Libra</string>
+    <string name="libra_title">ราศีตุลย์</string>
+    <string name="libra_title_en">Libra</string>
+    <string name="libra_character_title">ลักษณะของคนราศีตุลย์</string>
+    <string name="libra_date">(22 ก.ย. - 23 ต.ค.)</string>
+
+    <string name="libra_main">ชาวราศีตุลย์รู้จักลำดับความสำคัญในเรื่องต่างๆได้อย่างดีเยี่ยม คุณรู้ว่าอะไรควรคิด ควรทำเป็น
+อันดับที่ 1, 2, 3 คุณจัดการเรื่องต่างๆได้อย่างชาญฉลาด เป็นคุณสมบัติที่ทำให้คุณสามารถประสบความสำเร็จในชีวิตได้อย่างง่ายดาย เมื่อคุณมีความสามารถในการลำดับความสำคัญของสิ่งต่างๆที่ต้องทำได้เป็นอย่างดีแล้ว คุณสมบัติอีกข้อของคุณคือ คุณสามารถดึงดูดผู้คนให้มาร่วมเดินทางเดียวกับคุณเพื่อที่จะบรรลุเป้าหมายเดียวกันได้ โดยที่คุณจะไม่เอารัดเอาเปรียบผู้อื่นเลย ตรงกันข้ามคุณจะร่วมแบ่งปันความสำเร็จที่สร้างมาด้วยกัน ชาวราศีตุลย์เลี้ยงดูผู้ร่วมอุดมการณ์ หรือคนในทีมงานได้เป็นอย่างดี บางทีอาจจะดีเกินไปด้วยซ้ำ (หากเป็นเจ้านายก็เป็นเจ้านายที่ดีมากๆ) คุณต้องเรียนรู้และฝึกฝนในเรื่องการของเผชิญหน้ากับผู้อื่นให้มากๆ ต้องกำจัดความกลัว ความกลัวที่ว่าคุณจะทำให้ผู้อื่นต้องเจ็บช้ำ ต้องเสียใจ หรือต้องรู้สึกไม่ดี เพราะนี่คือจุดอ่อนของชาวราศีตุลย์ซึ่งศัตรูของคุณสามารถนำจุดอ่อนตรงนี้มาใช้เล่นงานคุณได้</string>
+    <string name="libra_compat_title">ราศีที่เข้ากันได้ดี</string>
+    <string-array name="libra_compat_array">
+        <item>4,leo,ราศีสิงห์,Leo</item>
+        <item>2,gemini,ราศีเมถุน,Gemini</item>
+    </string-array>
+    <string name="libra_good_title">ข้อดี</string>
+    <string-array name="libra_good_main_array">
+        <item>ทำงานร่วมกับผู้อื่นได้ดั</item>
+        <item>มีความยุติธรรม</item>
+        <item>สำนึกบุญคุณ</item>
+    </string-array>
+    <string name="libra_bad_title">ข้อเสีย</string>
+    <string-array name="libra_bad_main_array">
+        <item>ขาดการตัดสินใจ</item>
+        <item>หลีกเลี่ยงการเผชิญหน้า</item>
+        <item>เก็บความรู้สึกขุ่นเคือง ไม่พอใจ</item>
+    </string-array>
+    <string name="libra_thai">คนดังในประเทศไทยของราศีตุลย์</string>
+    <string-array name="libra_thai_celeb_array">
+        <item>หมิว ลลิตา</item>
+        <item>พีค พีศยา</item>
+        <item>เคน ภูภูมิ</item>
+    </string-array>
+    <string name="libra_wold">คนดังระดับโลกของราศีตุลย์</string>
+    <string-array name="libra_world_celeb_array">
+        <item>วิล สมิธ</item>
+        <item>อัชเชอร์</item>
+        <item>เอมิเน็ม</item>
+        <item>เอวริล ลาวีน</item>
+    </string-array>
+
+
+    <!--ราศีพิจิก-->
+    <string name="scorpio_n">7</string>
+    <string name="scorpio_var">Scorpio</string>
+    <string name="scorpio_title">ราศีพิจิก</string>
+    <string name="scorpio_title_en">Scorpio</string>
+    <string name="scorpio_character_title">ลักษณะของคนราศีพิจิก</string>
+    <string name="scorpio_date">(23 ต.ค. - 21 พ.ย.)</string>
+    <string name="scorpio_main">ชาวราศีพิจิกเป็นพวกลืมเรื่องราวในอดีตได้ยาก ประเภทแค้นฝั่งใจ ไม่ให้อภัยใครง่ายๆ ยึดติดอยู่กับอารมณ์ความรู้สึกเก่าๆ คุณต้องเรียนรู้ว่าความอิจฉาริษยาและความหึงหวงรังแต่จะทำให้ชีวิตของคุณพ่ายแพ้ คุณต้องปรับเปลี่ยนความรู้สึกที่ไม่ดีตรงนั้นให้เป็นพลังงานบวกให้ได้ ทำกิจกรรมที่สร้างสรรค์บ่อยๆ สร้างประโยชน์ต่อผู้อื่น รวมไปถึงให้เกิดประโยชน์แก่ตัวคุณเองด้วย ราศีใดๆก็ไม่มีใครเจ้าอารมณ์เทียบเท่ากับชาวราศีพิจิกได้เลย</string>
+    <string name="scorpio_compat_title">ราศีที่เข้ากันได้ดี</string>
+    <string-array name="scorpio_compat_array">
+        <item>5,virgo,ราศีกันย์,Virgo</item>
+        <item>1,taurus,ราศีพฤษภ,Taurus</item>
+    </string-array>
+    <string name="scorpio_good_title">ข้อดี</string>
+    <string-array name="scorpio_good_main_array">
+        <item>กล้าหาญ</item>
+        <item>มิตรแท้</item>
+        <item>จริงจังและจริงใจ</item>
+    </string-array>
+    <string name="scorpio_bad_title">ข้อเสีย</string>
+    <string-array name="scorpio_bad_main_array">
+        <item>หวาดระแวงขี้อิจฉา</item>
+        <item>เจ้าอารมณ์</item>
+    </string-array>
+    <string name="scorpio_thai">คนดังในประเทศไทยของราศีพิจิก</string>
+    <string-array name="scorpio_thai_celeb_array">
+        <item>วู้ดดี้ วุฒิธร มิลินทจินดา</item>
+        <item>ศรีริต้า เจนเซ่น</item>
+        <item>ฟิล์ม รัฐภูมิ </item>
+    </string-array>
+    <string name="scorpio_wold">คนดังระดับโลกของราศีพิจิก</string>
+    <string-array name="scorpio_world_celeb_array">
+        <item>เคธี่ เพอร์รี่</item>
+        <item>ลีโอนาร์โด ดีคาพรีโอ</item>
+        <item> บิล เกตต</item>
+    </string-array>
+
+
+
+    <!--ราศีธนู-->
+    <string name="sagittarius_n">8</string>
+    <string name="sagittarius_var">Sagittarius</string>
+    <string name="sagittarius_title">ราศีธนู</string>
+    <string name="sagittarius_title_en">Sagittarius</string>
+    <string name="sagittarius_character_title">ลักษณะของคนราศีธนู</string>
+    <string name="sagittarius_date">(22 พ.ย. - 21 ธ.ค.)</string>
+    <string name="sagittarius_main">ชาวราศีธนูเป็นคนมองโลกในแง่ดี ชอบการเดินทาง ชอบการแข่งขัน ชีวิตของคนราศีนี้ขับเคลื่อนไปด้วยพลังงานมหาศาลของตัวเอง หากมีความต้องการในเรื่องใดๆอย่างแรงกล้าแล้วก็พร้อมที่จะทำทุกวิถีทางเพื่อสิ่งสิ่งนั้น คุณสามารถไปไหนต่อไหนได้เรื่อยๆไม่ว่าจะไปเที่ยหรือจะไปทำงาน คุณเป็นอีกคนหนึ่งที่ปรับตัวเก่ง ชาวธนูรักอิสระ คุณจะดีใจมากหากตนเองหลุดพ้นออกมาจากการกักขังในข้อจำกัดต่างๆการงานก็ดี ครอบครัวก็ ชาวราศีนี้มีความเป็นนักกีฬาสูง ไวเหมือนลิง เก่ง และฉลาด คุณรู้วิธีที่จะสามารถเอาชนะผู้อื่นได้
+</string>
+    <string name="sagittarius_compat_title">ราศีที่เข้ากันได้ดี</string>
+    <string-array name="sagittarius_compat_array">
+        <item>6,libra,ราศีตุลย์,Libra</item>
+        <item>4,leo,ราศีสิงห์,Leo</item>
+    </string-array>
+    <string name="sagittarius_good_title">ข้อดี</string>
+    <string-array name="sagittarius_good_main_array">
+        <item>อารมณ์ขัน</item>
+        <item>สนุกสนาน</item>
+        <item>ใจดี</item>
+    </string-array>
+    <string name="sagittarius_bad_title">ข้อเสีย</string>
+    <string-array name="sagittarius_bad_main_array">
+        <item>ต่อรองใครไม่เป็น</item>
+        <item>ไม่ค่อยรักษาคำพูด</item>
+        <item>ความอดทนทางอารมณ์ต่ำ</item>
+    </string-array>
+    <string name="sagittarius_thai">คนดังในประเทศไทยของราศีธนู</string>
+    <string-array name="sagittarius_thai_celeb_array">
+        <item>ณเดช คูกิมิยะ</item>
+        <item>เคน ธีรเดช</item>
+        <item>มาริโอ้ เมาเร่อ</item>
+    </string-array>
+    <string name="sagittarius_wold">คนดังระดับโลกของราศีธนู</string>
+    <string-array name="sagittarius_world_celeb_array">
+        <item>บริทนีย์ สเปียร์</item>
+        <item>นิคกี้ มินาจ</item>
+        <item>เทย์เลอร์ สวิฟท์</item>
+    </string-array>
+    <string name="title_activity_activity_noti">ActivityNoti</string>
 </resources>

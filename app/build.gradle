@@ -5,11 +5,11 @@ android {
     buildToolsVersion '22.0.1'
 
     defaultConfig {
-        applicationId "co.aquario.socialkit"
+        applicationId "co.aquario.horoscope"
         minSdkVersion 15
         targetSdkVersion 22
-        versionCode 1
-        versionName "1.0"
+        versionCode 6
+        versionName "1.1.4"
     }
     buildTypes {
         release {
@@ -32,7 +32,6 @@ dependencies {
     compile 'com.android.support:recyclerview-v7:22.2.0'
     compile 'com.android.support:cardview-v7:22.2.0'
     compile 'com.android.support:design:22.2.0'
-
     compile 'com.facebook.android:facebook-android-sdk:4.0.1'
     compile 'com.squareup.retrofit:retrofit:1.6.1'
     compile 'com.squareup.okhttp:okhttp-urlconnection:2.4.0'
@@ -41,18 +40,23 @@ dependencies {
     compile 'com.squareup.picasso:picasso:2.5.0'
     compile 'com.jakewharton:butterknife:6.1.0'
     compile 'com.google.dagger:dagger:2.0'
-
     compile 'com.github.paolorotolo:appintro:1.4.0'
-
     compile('com.mikepenz:materialdrawer:3.0.8@aar') {
         transitive = true
     }
-
     compile 'com.github.nkzawa:socket.io-client:0.5.1'
-
     //compile 'com.nispok:snackbar:2.9.0'
-
     //apt 'com.google.dagger:dagger-compiler:2.0'
     //provided 'javax.annotation:jsr250-api:1.0'
+    compile 'com.astuetz:pagerslidingtabstrip:1.0.1'
+    compile project(':ParseLoginUI')
+    compile project(':androidHorizontalListView')
+    compile files('libs/Parse-1.10.1.jar')
+    compile 'com.github.flavienlaurent.datetimepicker:library:0.0.2'
+    compile 'com.github.talenguyen:prettysharedpreferences:1.0.2'
+
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.daimajia.easing:library:1.0.1@aar'
+    compile 'com.daimajia.androidanimations:library:1.1.3@aar'
 
 }
