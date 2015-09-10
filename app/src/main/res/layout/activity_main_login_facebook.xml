@@ -49,4 +49,12 @@
             android:layout_marginTop="@dimen/com_parse_ui_large_vertical_spacing"
             android:text="@string/profile_logout_button_label"/>
     </LinearLayout>
+    <!--<Button-->
+        <!--android:visibility="gone"-->
+        <!--android:id="@+id/skip"-->
+        <!--style="@style/ParseLoginUI.HelpButton"-->
+        <!--android:layout_marginBottom="@dimen/com_parse_ui_small_vertical_spacing"-->
+        <!--android:layout_marginTop="@dimen/com_parse_ui_small_vertical_spacing"-->
+        <!--android:text="Skip" />-->
+
 </LinearLayout>

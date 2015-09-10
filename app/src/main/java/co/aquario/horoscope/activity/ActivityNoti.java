@@ -67,25 +67,25 @@ public class ActivityNoti extends AppCompatActivity {
         number = getIntent().getIntExtra("number", 0);
         data2 = getIntent().getStringExtra("data2");
 
-        query = ParseQuery.getQuery("Daily");
-
-        query.getInBackground("Hm5vGPVL4J", new GetCallback<ParseObject>() {
-            @Override
-            public void done(ParseObject object, ParseException e) {
-                if (e == null) {
-                    String title = object.getString("title");
-                    Date date = object.getDate("date");
-                    String detail = object.getString("detail");
-
-                    Log.e("666", title);
-                    Log.e("555",date+"");
-                    Log.e("777",detail);
-
-                } else {
-                    // check errors.
-                }
-            }
-        });
+//        query = ParseQuery.getQuery("Daily");
+//
+//        query.getInBackground("Hm5vGPVL4J", new GetCallback<ParseObject>() {
+//            @Override
+//            public void done(ParseObject object, ParseException e) {
+//                if (e == null) {
+//                    String title = object.getString("title");
+//                    Date date = object.getDate("date");
+//                    String detail = object.getString("detail");
+//
+//                    Log.e("666", title);
+//                    Log.e("555",date+"");
+//                    Log.e("777",detail);
+//
+//                } else {
+//                    // check errors.
+//                }
+//            }
+//        });
 
         hlvCompat = (HorizontalListView) findViewById(R.id.hlvCompat);
         ava = (ImageView) findViewById(R.id.avatra);
@@ -115,7 +115,12 @@ public class ActivityNoti extends AppCompatActivity {
         hlvCompat.setAdapter(compatAdapter);
         date.setText(characterDateTtitle);
        // character_title.setText(title);
-        character_main.setText(data2);
+
+            character_main.setText(data2);
+
+
+
+
 
         hlvCompat.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

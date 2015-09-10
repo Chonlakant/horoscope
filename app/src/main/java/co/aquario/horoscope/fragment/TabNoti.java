@@ -1,8 +1,10 @@
 package co.aquario.horoscope.fragment;
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.graphics.Point;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.widget.Toolbar;
@@ -12,6 +14,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.GridView;
 
 import com.astuetz.PagerSlidingTabStrip;
@@ -58,11 +61,13 @@ public class TabNoti extends BaseFragment {
     private static final int[] ICONS = new int[]{R.drawable.aries, R.drawable.taurus,
             R.drawable.gemini, R.drawable.cancer, R.drawable.leo, R.drawable.virgo,
             R.drawable.libra, R.drawable.scorpio, R.drawable.sagittarius, R.drawable.capricorn,
-            R.drawable.aquarius, R.drawable.pisces };
-    ParseQuery<Daily> query ;
+            R.drawable.aquarius, R.drawable.pisces};
+    ParseQuery<Daily> query;
     ImageAdapter imageAdapter;
     GridView gridView;
     private int mPage;
+    Button popOkB;
+    Dialog dialog;
 
     public static TabNoti newInstance(int page) {
         Bundle args = new Bundle();
@@ -87,17 +92,14 @@ public class TabNoti extends BaseFragment {
     String titleParse;
     Date dateParse;
     String detailParse;
-
+    String data;
     List<Daily> dailyList;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.activity_main_zodiac, container, false);
-        ApiBus.getInstance().post(new GetTasksEvent());
 
         gridView = (GridView) rootView.findViewById(R.id.gridview);
-
-
 
 
 //        final String mystring2 = getResources().getString(R.string.aquarius_title);
@@ -105,11 +107,11 @@ public class TabNoti extends BaseFragment {
         toolbar = ((MainActivity) getActivity()).getToolbar();
         mainTab = ((MainActivity) getActivity()).tabsStrip;
 
-        if(toolbar != null) {
+        if (toolbar != null) {
             toolbarHeight = toolbar.getHeight();
         }
 
-        if(mainTab != null) {
+        if (mainTab != null) {
             tabHeight = mainTab.getHeight();
         }
 
@@ -117,7 +119,8 @@ public class TabNoti extends BaseFragment {
         Point size = new Point();
         display.getSize(size);
         int width = size.x / 4;
-        int height = (size.y - toolbarHeight - tabHeight - 320) / 4;
+        //int height = (size.y - toolbarHeight - tabHeight - 320) / 4;
+        int height = (size.y ) / 5;
 
         imageAdapter = new ImageAdapter(getActivity(), CONTENT4, ICONS, height);
         gridView.setAdapter(imageAdapter);
@@ -154,16 +157,18 @@ public class TabNoti extends BaseFragment {
         tmrCal.add(Calendar.DAY_OF_YEAR, -1); // <--
         Date yesterday = tmrCal.getTime();
 
+        Log.e("yesterday",yesterday+"");
+
         //พรุ่งนี้
         //query.whereGreaterThanOrEqualTo("date",  Calendar.getInstance().getTime());
         //query.whereLessThan("date",  tomorrow);
 
         //วันนี้
-        query.whereGreaterThanOrEqualTo("date",  yesterday);
+        query.whereGreaterThanOrEqualTo("date", yesterday);
+
         query.whereLessThan("date", Calendar.getInstance().getTime());
 
         query.orderByAscending("order");
-
 
         query.findInBackground(new FindCallback<Daily>() {
 
@@ -171,15 +176,15 @@ public class TabNoti extends BaseFragment {
             public void done(List<Daily> events, ParseException e) {
 
 
-                if(e == null) {
+                if (e == null) {
 
                     if (events.size() != 0) {
                         dailyList = events;
 
                         Log.d("Events", "Total Events:  " + events.size());
-                        for(int i = 0 ; i < events.size() ; i++) {
+                        for (int i = 0; i < events.size(); i++) {
                             Daily daily = events.get(i);
-                            System.out.println("ดวงของราศี "+daily.getTitle()+":  " + daily.getDetail());
+                            System.out.println("ดวงของราศี " + daily.getTitle() + ":  " + daily.getDetail());
                         }
 
                     }
@@ -195,24 +200,37 @@ public class TabNoti extends BaseFragment {
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                data = dailyList.get(i).getDetail();
 
-                Intent intent = new Intent(getActivity(), ActivityNoti.class);
-               String data =  dailyList.get(i).getDetail();
-                Log.e("Data_555", data);
-                intent.putExtra("title", CONTENT3[i]);
-                intent.putExtra("data", CONTENT2[i]);
-                intent.putExtra("data2", data);
-                intent.putExtra("number", i);
-                startActivity(intent);
-
-
-
+                if (data != null) {
+                    Intent intent = new Intent(getActivity(), ActivityNoti.class);
+                    Log.e("Data_555", data);
+                    intent.putExtra("title", CONTENT3[i]);
+                    intent.putExtra("data", CONTENT2[i]);
+                    intent.putExtra("data2", data);
+                    intent.putExtra("number", i);
+                    startActivity(intent);
+                } else {
+                    dialog = new Dialog(getActivity());
+                    dialog.setContentView(R.layout.dialog);
+                    popOkB = (Button) dialog.findViewById(R.id.popOkB);
+                    dialog.setTitle("ยังไม่มีข้อมูล..");
+                    popOkB.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            dialog.dismiss();
+                        }
+                    });
+                    dialog.show();
+                }
 
             }
         });
 
 
-        Log.e("height", height + "");
+        Log.e("bbbb", height + "");
+        Log.e("bbb", toolbarHeight + "");
+        Log.e("bbbb", tabHeight +"");
 
 
         return rootView;

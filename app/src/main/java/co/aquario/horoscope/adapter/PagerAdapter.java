@@ -16,7 +16,7 @@ import co.aquario.horoscope.fragment.TabNoti;
  */
 public class PagerAdapter extends FragmentPagerAdapter {
     final int PAGE_COUNT = 3;
-    private String tabTitles[] = new String[] { "ราศีเธอ", "12 ราศี", "วันนี้" };
+    private String tabTitles[] = new String[] { "ราศีของฉัน", "ดวงวันนี้ 12 ราศี", "นิสัย 12 ราศี" };
     PrefManager pref = MainApplication.getPrefManager();
     String title = pref.zodiac().getOr("");
     String data = pref.zodiac().getOr("");
@@ -35,15 +35,13 @@ public class PagerAdapter extends FragmentPagerAdapter {
         Fragment fragment = null;
         switch(position) {
             case 0:
-
                 fragment = new FragmentZodiacDetail().newInstance(position,title,data);
                 break;
             case 1:
-                fragment = new Tab1().newInstance(position);
+                fragment = new TabNoti().newInstance(position);
                 break;
             case 2:
-
-                fragment = new TabNoti().newInstance(position);
+                fragment = new Tab1().newInstance(position);
                 break;
         }
         return fragment;

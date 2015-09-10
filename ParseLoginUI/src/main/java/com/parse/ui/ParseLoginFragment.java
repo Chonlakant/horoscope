@@ -32,6 +32,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.facebook.AccessToken;
 import com.facebook.GraphRequest;
@@ -71,6 +72,7 @@ public class ParseLoginFragment extends ParseLoginFragmentBase {
   private Button parseSignupButton;
   private Button facebookLoginButton;
   private Button twitterLoginButton;
+  private Button skipButton;
   private ParseLoginFragmentListener loginFragmentListener;
   private ParseOnLoginSuccessListener onLoginSuccessListener;
 

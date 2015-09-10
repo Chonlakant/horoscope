@@ -24,4 +24,5 @@
         android:id="@+id/textView"
         android:layout_gravity="center_horizontal" />
 
+
 </LinearLayout><!-- From: file:/Users/root1/Documents/Android_Studio_src/SocialKit-original/ParseLoginUI/src/main/res/layout/com_parse_ui_parse_login_app_logo.xml -->

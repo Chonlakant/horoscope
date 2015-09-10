@@ -20,6 +20,7 @@ import com.parse.ui.ParseLoginBuilder;
 
 import android.os.Bundle;
 import android.os.Handler;
+import android.widget.Toast;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -37,7 +38,7 @@ public class MainActivityLoginFacebook extends AppCompatActivity {
     private TextView titleTextView;
     private TextView emailTextView;
     private TextView nameTextView;
-    private Button loginOrLogoutButton;
+    private Button loginOrLogoutButton,parse_login_skip;
     private ParseUser currentUser;
     ImageView app_logo;
 
@@ -45,39 +46,6 @@ public class MainActivityLoginFacebook extends AppCompatActivity {
     Class[] paramTypes = {Integer.TYPE, Integer.TYPE};
 
     Method overrideAnimation = null;
-
-//    public static String printKeyHash(AppCompatActivity context) {
-//        PackageInfo packageInfo;
-//        String key = null;
-//        try {
-//            //getting application package name, as defined in manifest
-//            String packageName = context.getApplicationContext().getPackageName();
-//
-//            //Retriving package info
-//            packageInfo = context.getPackageManager().getPackageInfo(packageName,
-//                    PackageManager.GET_SIGNATURES);
-//
-//            Log.e("Package Name=", context.getApplicationContext().getPackageName());
-//
-//            for (Signature signature : packageInfo.signatures) {
-//                MessageDigest md = MessageDigest.getInstance("SHA");
-//                md.update(signature.toByteArray());
-//                key = new String(Base64.encode(md.digest(), 0));
-//
-//                // String key = new String(Base64.encodeBytes(md.digest()));
-//                Log.e("Key Hash=", key);
-//            }
-//        } catch (PackageManager.NameNotFoundException e1) {
-//            Log.e("Name not found", e1.toString());
-//        }
-//        catch (NoSuchAlgorithmException e) {
-//            Log.e("No such an algorithm", e.toString());
-//        } catch (Exception e) {
-//            Log.e("Exception", e.toString());
-//        }
-//
-//        return key;
-//    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -89,7 +57,11 @@ public class MainActivityLoginFacebook extends AppCompatActivity {
         nameTextView = (TextView) findViewById(R.id.profile_name);
         loginOrLogoutButton = (Button) findViewById(R.id.login_or_logout_button);
         app_logo = (ImageView) findViewById(R.id.app_logo);
+//        parse_login_skip = (Button) findViewById(R.id.skip);
+//        parse_login_skip.setVisibility(View.VISIBLE);
         titleTextView.setText(R.string.profile_title_logged_in);
+
+
 
         YoYo.with(Techniques.Tada)
                 .duration(1500)
@@ -156,6 +128,8 @@ public class MainActivityLoginFacebook extends AppCompatActivity {
                 }
             }
         }, 2500);
+
+
     }
 
 

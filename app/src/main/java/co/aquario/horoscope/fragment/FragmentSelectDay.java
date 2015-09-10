@@ -42,6 +42,8 @@ public class FragmentSelectDay extends BaseFragment implements DatePickerDialog.
     public PrefManager prefManager;
     private ParseUser currentUser;
 
+
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
@@ -66,7 +68,7 @@ public class FragmentSelectDay extends BaseFragment implements DatePickerDialog.
         } catch (ParseException e) {
             e.printStackTrace();
         }
-        Log.e("userinfo",currentUser.getSessionToken());
+//        Log.e("userinfo",currentUser.getSessionToken());
         Zodiac = new ParseObject("Zodiac");
         zodiacData = currentUser.getString("zodiacTitle");
 

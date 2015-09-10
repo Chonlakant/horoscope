@@ -1,6 +1,8 @@
 package co.aquario.horoscope.adapter;
 
 import android.content.Context;
+import android.graphics.Point;
+import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -51,7 +53,6 @@ public class ImageAdapter extends BaseAdapter {
         ImageView imageView = (ImageView)view.findViewById(R.id.imageView);
         imageView.setBackgroundResource(resId[position]);
         //view.setBackgroundColor(Color.rgb((int) (Math.random() * 255), (int) (Math.random() * 255), (int) (Math.random() * 255)));
-
 
 
         view.setLayoutParams(new GridView.LayoutParams(GridView.AUTO_FIT, h));

@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.graphics.Point;
 import android.os.Bundle;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Display;
@@ -99,7 +100,8 @@ public class Tab1 extends BaseFragment {
         Point size = new Point();
         display.getSize(size);
         int width = size.x / 4;
-        int height = (size.y - toolbarHeight - tabHeight - 320) / 4;
+        //int height = (size.y - toolbarHeight - tabHeight - 320) / 4;
+        int height = (size.y ) / 5;
 
         imageAdapter = new ImageAdapter(getActivity(), CONTENT4, ICONS, height);
         gridView.setAdapter(imageAdapter);
@@ -119,9 +121,9 @@ public class Tab1 extends BaseFragment {
         });
 
 
-        Log.e("height", height + "");
-
-
+        Log.e("a", height + "");
+        Log.e("a", toolbarHeight + "");
+        Log.e("a", tabHeight + "");
         return rootView;
     }
 
